@@ -1,2 +1,2 @@
-print('hello world')
-echo “Hello, World!” > output.txt
+print('hello world') > output.txt
+# echo “Hello, World!” > output.txt
