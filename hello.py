@@ -1,1 +1,1 @@
-print('hello world') > output.txt
+print('hello world')
