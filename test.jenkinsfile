@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Print Messages') {
+            steps {
+                echo 'This is a message printed to the Jenkins console.'
+                echo "Current build number: ${env.BUILD_NUMBER}"
+            }
+        }
+    }
+}
